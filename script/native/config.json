@@ -1,0 +1,13 @@
+{
+    "klee_args": [
+        "--search=dfs",
+        "--max-time=60s",
+        "--timer-interval=1s",
+        "--watchdog"
+    ],
+    "benchmarks": [
+        "samples-dfs-nat"
+    ],
+    "klee_include": "/home/shared_folder/klee-v.2/native/include/",
+    "klee_lib": "/home/shared_folder/klee-v.2/native/build/lib/"
+}
